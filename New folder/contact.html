@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>University tutorial</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+	<section class=" sub-header">
+		<nav>
+			<a href="index.html"><img src="kuch/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				   <ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="course.html">Courses</a></li>
+					<li><a href="About.html">Blog</a></li>
+					
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+       <h1>Contact Us</h1>
+		
+	</section>
+	<!----------------Contact---------------->
+      <section class="location">
+   	     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228624.50901839006!2d80.19829435698539!3d26.447412828215096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1653478735387!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+       <section class="contact-us">
+       	   <div class="row">
+       	   	  <div class="contact-col">
+       	   	  	<div>
+       	   	  		<i class="fa fa-home"></i>
+       	   	  		<span>
+       	   	  			<h5> XYZ Road,ABC Building</h5>
+       	   	  			<p> Uttar Pradesh,Kanpur,Bharat</p>
+       	   	  		</span>
+       	   	  	</div>
+       	   	  	<div>
+       	   	  		<i class="fa fa-phone"></i>
+       	   	  		<span>
+       	   	  			<h5> +91 7317093076</h5>
+       	   	  			<p>Monday to Saturday ,10am to 6pm</p>
+       	   	  		</span>
+       	   	  	</div>
+       	   	  	<div>
+       	   	  		<i class="fa fa-envelope-o"></i>
+       	   	  		<span>
+       	   	  			<h5> ayushktyar@gmail.com</h5>
+       	   	  			<p>Email for any query</p>
+       	   	  		</span>
+       	   	  	</div>
+       	   	  </div>
+       	   	  <div class="contact-col">
+
+                   <form action="">
+                     <input type="text"placeholder="Enter your name"required>
+                   <input type="email"placeholder="Enter email address"required>            
+                   <input type="text"placeholder="Enter your subject"required>
+                  <textarea rows="8"placeholder="Message" required></textarea>
+                 <button type="submit"class="hero-btn red-btn">send message</button>
+                      
+                   </form>
+
+       	   	  </div>
+       </section>
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+<!---------------Footer--------------->
+<section class="Footer">
+	<h4> About Us</h4>
+	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using <br>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here..</p>
+	  <div class="icons">
+	  	  	<i class="fa fa-facebook"></i>
+	  	  	<i class="fa fa-twitter"></i>
+	  	  	<i class="fa fa-instagram"></i>
+	  	  	<i class="fa fa-linkedin"></i>
+	  </div>
+	  <p> Made with<i class="fa fa-heart-o"></i> by Ayush Katiyar :)</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+	<!-----javascript for toggle menu--->
+   <script type="text/javascript">
+   	  var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+       function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+   </script>
+</body>
+</html>

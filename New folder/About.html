@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>University tutorial</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+	<section class=" sub-header">
+		<nav>
+			<a href="index.html"><img src="kuch/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				    <ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="course.html">Courses</a></li>
+					<li><a href="About.html">Blog</a></li>
+					
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+       <h1>About Us</h1>
+		
+	</section>
+	<!----------------About Us content---------------->
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1> We are the worlds largest university</h1>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+			</p>
+			<a href="" class="hero-btn  red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="kuch/about.jpg">
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!---------------Footer--------------->
+<section class="Footer">
+	<h4> About Us</h4>
+	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using <br>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here..</p>
+	  <div class="icons">
+	  	  	<i class="fa fa-facebook"></i>
+	  	  	<i class="fa fa-twitter"></i>
+	  	  	<i class="fa fa-instagram"></i>
+	  	  	<i class="fa fa-linkedin"></i>
+	  </div>
+	  <p> Made with<i class="fa fa-heart-o"></i> by Ayush Katiyar :)</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+	<!-----javascript for toggle menu--->
+   <script type="text/javascript">
+   	  var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+       function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+   </script>
+</body>
+</html>
